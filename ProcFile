@@ -1,1 +1,2 @@
-web: gunicord wsgi:app
+ps:scale web=1
+web: gunicord app:app
